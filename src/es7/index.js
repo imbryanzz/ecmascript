@@ -9,5 +9,5 @@ if (numbers.includes(7)) {
 let base = 4;
 let exponent = 4;
 let result = base ** exponent; // el doble * la terminal lo tomará como simbolo de potenciación
- 
+
 console.log(result);
