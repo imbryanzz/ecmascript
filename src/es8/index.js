@@ -22,11 +22,12 @@ const values = Object.values(data);
 console.log(values)
 console.log(values.length);
 
-//
+//Acá probamos el padSrat y el padEnd que sirven para añadir valores a strings sea al inicio o al final
 const string = 'Hello';
 console.log(string.padStart(7,'Hi'));
 console.log(string.padEnd(12, ' ------'));
 
+// Acá aprendimos las primcipales funciones de el async y el await con ejemplos prácticos y también usando una promsea
 const helloWorld = () => {
     return new Promise ((resolve, reject) => {
         (true)
